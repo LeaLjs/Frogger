@@ -1,0 +1,133 @@
+
+*{
+    font-family: "Inter", sans-serif;
+}
+body{
+  background-image: url('wallpapers/frogger\ wallpaper\ 3.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.barra{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: -2px;
+    width: 100%;
+    padding: 6px;
+    height: 40px; /* Altura da barra, ajuste conforme necessário */
+    background-color: #333; /* Cor de fundo da barra */
+    flex-direction: row;
+
+}
+
+.taskbar {
+    display: flex;
+     /* Distribui os itens igualmente */
+    justify-content: center ;
+    color: #fff;
+    margin-left: 575px;
+    margin-right: 570px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Estilo dos itens dentro da barra de tarefas */
+  .taskbar-item {
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+  }
+  
+  /* Ajuste os estilos de hover pra dar feedback visual */
+  .taskbar-item:hover {
+    background-color: #555;
+   
+  }
+
+  .info{
+    background-color: #acacac;
+    padding: 5px;
+    border-radius: 5px;
+    display: grid;
+  }
+
+  .horario{
+    display: flex ;
+    color: #fff;
+    flex-wrap: wrap;
+  }
+  #data{
+    color: #fff;
+    display: flex;
+  }
+
+
+  svg{
+    width: 30px;
+  }
+  
+  a > img{
+    width: 35px;
+    border-radius: 50%;
+  }
+
+  #terminal{
+    width: 60px;
+    margin: -15px;
+  }
+
+  #options{
+    background-color: #1d1a1ae5;
+    width: 600px;
+    height: 700px;
+    margin: auto;
+    border-radius: 40px;
+    display: none;
+
+    
+
+    
+  }
+
+  #apps1{
+    text-align: center;
+    display: flex;
+  }
+  
+  #apps1 > ul{
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+  }
+
+  #apps-item > a > img{
+    width: 110px;
+  }
+
+  #apps2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  #apps2 > ul{
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-right:35px;
+  }
+
+#apps-item2 > a > img{
+    width: 55px;
+   margin-left: 50px;
+   border-radius: 0px;
+  }
+
+  
