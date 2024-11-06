@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frogged</title>
+</head>
+<style>
+    body{
+        color: rgb(0, 0, 0);
+        background-image: linear-gradient(to bottom right, rgb(11, 11, 11) ,rgb(48, 43, 43),rgb(62, 48, 48));
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        text-align: center;
+        font: 100 10pt Arial;
+        display: flex;
+        justify-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    nav{
+        margin-top: -8px;
+    background-color: rgb(24, 24, 49);
+    padding: 10px;
+    }
+
+    main{
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+
+  #search-bar{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(2, 2, 24);
+    width: 280px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 35, 60);
+  }
+
+  h1{
+    color: white;
+    font-size: 50px;
+  }
+  #bottoms{
+    text-align: end;
+   
+  }
+  img{
+    width: 15px;
+    margin-left: 15px;
+    margin-right: 10px;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 20px;
+    
+  }
+  input{
+    background-color: rgba(240, 248, 255, 0);
+    border: 0px;
+    border-color: rgba(240, 248, 255, 0);
+    
+  }
+  #input:focus-within{
+    border-color: rgba(240, 248, 255, 0);
+    border: 0px;
+    
+  }
+  
+  button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+input::placeholder {
+    color: rgba(255, 243, 243, 0.6);
+}
+#search-bar:focus-within {
+    border-color: rgb(52, 132, 186);
+    background-color: rgb(240, 248, 255, 0.8);
+}
+
+span{
+    color: blueviolet;
+}
+ol{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    color: aliceblue;
+}
+ol > li{
+    font-size: larger;
+}
+
+</style>
+<body>
+
+<main>
+    <br>
+    <br>
+    <h1>Bem Vindo Ao <span>Frogged!</span></h1>
+    <h1>tente essas urls:</h1>
+    <ol>
+        <li>wikipedia.org</li>
+        <br>
+        <li>player.vimeo.com/video/76979871</li>
+        <br>
+        <li>codepen.io/team/codepen/embed/preview/PNaGbb</li>
+        <br>
+        <li>open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M</li>
+        <br>
+    </ol>
+
+</main>
+</body>
+</html>

@@ -34,3 +34,12 @@ setInterval(atualizarHorario, 1000);
 
 
 // Em um arquivo JS separado
+function loadPage() {
+  const iframe = document.getElementById('browser-iframe');
+  const addressBar = document.getElementById('address-bar');
+  const url = addressBar.value.startsWith("http") ? addressBar.value : "https://" + addressBar.value;
+  
+  iframe.src = url;
+
+  
+}
